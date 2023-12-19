@@ -61,6 +61,15 @@ The data variables include temperature, precipitation, humidity, downward shortw
 ### USFS National Grassland Units
 The Forest Service currently administers 20 National Grasslands consisting of 3,842,278 acres of federal land and the 20,000 acre Midewin National Tallgrass Prairie. National Grasslands are located in 13 states. The majority of the acreage (3,161,771 acres, 82%) of the total National Grassland area is in the Great Plains states of Colorado, North Dakota, South Dakota, Kansas, Oklahoma, Texas and Wyoming. Seventeen of the National Grasslands are located on the Great Plains (National Grasslands, n.d.). GIS layers of area boundaries are available for download [here](https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.NationalGrassland.zip).
 
+<iframe src="/final_code/all-grasslands.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="700"
+    height="700"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
 As I worked with the data, I needed to transform the data from geographic units to a universal trasverse mercator projection. Interestingly enough, both of my chosen locations ended up being in the same EPSG code: 32614, if someone wanted to reproduce my work, they would need to alter the code to allow different zones.
 
 ###  How to Build the Model
@@ -79,9 +88,9 @@ Create a habitat suitability model- For each grassland:
    * For each digital number in each raster, assign a value from 0 to 1 for how close that grid square is to the optimum range (1=optimal, 0=incompatible).
    * Combine your layers by multiplying them together. This will give you a single suitability number for each square.
 
-### Model: Lyndon B. Johnson National Grassland
 
-<iframe src="/assets/multispectral/chloropleth-seattle-2019-present-max.html"
+
+<iframe src="/final_code/nd-grasslands.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="700"
@@ -89,6 +98,70 @@ Create a habitat suitability model- For each grassland:
     seamless="seamless"
     frameborder="0">
 </iframe>
+
+### Model: Lyndon B. Johnson National Grassland
+
+
+<iframe src="/final_code/tx-grasslands.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="700"
+    height="700"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+<iframe src="/final_code/tx_combined_data_plots.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="700"
+    height="700"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+<iframe src="/final_code/tx_combined_optimal_plots.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="700"
+    height="700"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+
+### Model: Sheyenne National Grassland
+
+
+<iframe src="/final_code/nd-grasslands.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="700"
+    height="700"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+<iframe src="/final_code/nd_combined_data_plots.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="700"
+    height="700"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+<iframe src="/final_code/nd_combined_optimal_plots.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="700"
+    height="700"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+# Conclusion
+While these regions have Sorghastrum nutans as the pre-dominant or sub-dominant species, there is still large percentages of the final optimal habitat suitability that go uncovered. Not all prairie land allows for any kind of grass to grow, but ultimately, plant diversity in a region is the best outcome for a fruitful environment. But with climate change, the next step to look at is tracking changes through time, and creating a model to predict the future habitat suitability of Sorghastrum nutans.
 
 ## Data Citations
 Brakie, M. 2017. Plant Guide for Indiangrass (Sorghastrum nutans). USDA-Natural Resources Conservation Service, East
