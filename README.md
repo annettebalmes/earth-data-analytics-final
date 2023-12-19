@@ -1,6 +1,6 @@
 # earth-data-analytics-final
 Grassland Management Under Climate Change 
-- Evaluation of Sorghastrum nutans likelihood in several regions
+- Evaluation of Sorghastrum nutans habitat suitability in several regions
 
 - Written Analysis: On my personal github webpage: https://annettebalmes.github.io/
 
