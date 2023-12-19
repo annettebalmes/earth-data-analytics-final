@@ -47,17 +47,28 @@ POLARIS provides a spatially continuous, internally consistent, quantitative pre
 
 As we know that Indiangrass grows roots down to 2 meters, I acquired the 100-200cm mean pH data as it is more likely that the levels at the deeper roots could be prevelant.
 
-### Appears API and NASA EarthData
-d
+### Appears API and NASA Elevation Data
+AppEEARS stands for Application for Extracting and Exploring Analysis Ready Samples to assist users to subset geospatial datasets using spatial, temporal, and band/layer parameters. In this case we used the API to download NASA Shuttle Radar Topography Mission Global 3 arc second DEM data. The digital elevation model launched February 11, 2000 and ﬂew for 11 days and is the highest resolution elevation model available today.
+
+The API is not very stable, and I had to create code to cover multiple situations, including if the API is unaccessible. In addition, I have manually downloaded the data that I used in this project and used that in my final results.
 
 ### MACAv2 through Climate Toolbox
-d
+Multivariate Adaptive Constructed Analogs (MACA) is a statistical method for downscaling GCM data from its coarse format to a higher spatial resolution for the Continental United States (CONUS). The MACA downscaling approach takes 20 GCMs from CMIP5 and downscales them to 4km or 6km resolution data. The resolution of MACA v2 Metdata is 4km. (https://www.climatologylab.org/maca.html).
+
+The data variables include temperature, precipitation, humidity, downward shortwave solar radiation, and eastward and northward wind. Data are also provided for historical time periods from 1950-2005. I have downloaded monthly aggregated data from 1950-2005 for each location through the Climate Toolbox from the Northwest Knowledge Network(NKN) (https://climate.northwestknowledge.net/MACA/data_catalogs.php).
 
 ### USFS National Grassland Units
 
+
 ## Data Citation
 
+https://www.climatologylab.org/maca.html
+
+https://climate.northwestknowledge.net/MACA/data_catalogs.php
+
 https://www.fs.usda.gov/database/feis/plants/graminoid/sornut/all.html
+
+https://appeears.earthdatacloud.nasa.gov/
 
 https://mnfi.anr.msu.edu/communities/description/10709/hillside-prairie
 
