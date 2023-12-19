@@ -79,8 +79,16 @@ Create a habitat suitability model- For each grassland:
    * For each digital number in each raster, assign a value from 0 to 1 for how close that grid square is to the optimum range (1=optimal, 0=incompatible).
    * Combine your layers by multiplying them together. This will give you a single suitability number for each square.
 
+### Model: Lyndon B. Johnson National Grassland
 
-
+<iframe src="/assets/multispectral/chloropleth-seattle-2019-present-max.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="700"
+    height="700"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
 
 ## Data Citations
 Brakie, M. 2017. Plant Guide for Indiangrass (Sorghastrum nutans). USDA-Natural Resources Conservation Service, East
