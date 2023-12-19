@@ -2,7 +2,7 @@
 Grassland Management Under Climate Change 
 - Evaluation of Sorghastrum nutans likelihood in several regions
 
-- Written Analysis: On my [https://annettebalmes.github.io/](personal github webpage)
+- Written Analysis: On my (https://annettebalmes.github.io/)[personal github webpage]
 
 ## Introduction
 Sorghastrum nutans, commonly known as Indiangrass, is a warm-season perennial grass native to North America, according to the Natural Resources Conservation Service. It is often found in prairies, savannas, and open woodlands, and is found from the east coast to the Rocky Mountains, Arizona, Wyoming, and Utah (Michigan Natural Features Inventory, n.d.).
