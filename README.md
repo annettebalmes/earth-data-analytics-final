@@ -56,13 +56,17 @@ The API is not very stable, and I had to create code to cover multiple situation
 Multivariate Adaptive Constructed Analogs (MACA) is a statistical method for downscaling GCM data from its coarse format to a higher spatial resolution for the Continental United States (CONUS). The MACA downscaling approach takes 20 GCMs from CMIP5 and downscales them to 4km or 6km resolution data. The resolution of MACA v2 Metdata is 4km. (https://www.climatologylab.org/maca.html).
 
 The data variables include temperature, precipitation, humidity, downward shortwave solar radiation, and eastward and northward wind. Data are also provided for historical time periods from 1950-2005. I have downloaded monthly aggregated data from 1950-2005 for each location through the Climate Toolbox from the Northwest Knowledge Network(NKN) (https://climate.northwestknowledge.net/MACA/data_catalogs.php).
-x
-### USFS National Grassland Units
 
+### USFS National Grassland Units
+The Forest Service currently administers 20 National Grasslands consisting of 3,842,278 acres of federal land and the 20,000 acre Midewin National Tallgrass Prairie. National Grasslands are located in 13 states. The majority of the acreage (3,161,771 acres, 82%) of the total National Grassland area is in the Great Plains states of Colorado, North Dakota, South Dakota, Kansas, Oklahoma, Texas and Wyoming. Seventeen of the National Grasslands are located on the Great Plains. GIS layers of area boundaries are available for download [here](https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.NationalGrassland.zip).
+
+As I worked with the data, I needed to transform the data from geographic units to a universal trasverse mercator projection. Interestingly enough, both of my chosen locations ended up being in the same EPSG code: 32614, if someone wanted to reproduce my work, they would need to alter the code to allow different zones.
 
 ## Data Citation
 
 https://www.climatologylab.org/maca.html
+
+https://www.fs.usda.gov/managing-land/national-forests-grasslands/national-grasslands
 
 https://climate.northwestknowledge.net/MACA/data_catalogs.php
 
