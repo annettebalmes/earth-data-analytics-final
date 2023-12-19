@@ -14,7 +14,7 @@ occurs in non-wetlands, but may occur in wetlands
 * It's roots can grow to a depth of 2 meters.
 
 ## Data Choice
-If we analyze different types of data like pH, slope, and precipitation inputted into a fuzzly logic model can help us find the areas most suitable for Indiangrass to occur.
+If we analyze different types of data like pH, slope, and precipitation inputted into a fuzzly logic model can help us find the areas most suitable for Indiangrass to occur (Brakie, 2017).
 
 We can find Indiangrass by looking at it's soecific characteristics:
 * pH range of 4.8 to 8.0
