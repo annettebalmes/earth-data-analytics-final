@@ -1,4 +1,7 @@
 # earth-data-analytics-final
+
+[![DOI](https://zenodo.org/badge/698367564.svg)](https://zenodo.org/doi/10.5281/zenodo.8412149)
+
 Grassland Management Under Climate Change 
 - Evaluation of Sorghastrum nutans habitat suitability in several regions
 
