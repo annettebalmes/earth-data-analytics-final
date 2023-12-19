@@ -22,7 +22,7 @@ We can find Indiangrass by looking at it's soecific characteristics:
 * annual precipitation of 28 to 114 cm
 
 We can aquire that data from:
-* pH: soil depth 100-200 cm pH data from POLARIS
+* pH: soil depth 100-200 cm mean pH data from POLARIS
 * slope: APPEEARS API for elevation data from NASA Earthdata
 * annual precipitation: MACAv2 dataset, accessible from Climate Toolbox.
 
@@ -43,7 +43,9 @@ With access to the USFS National Grassland Units, I found two locations in these
 ## More on Data:
 
 ### Polaris
-d
+POLARIS provides a spatially continuous, internally consistent, quantitative prediction of soil series. It is a 30-meter probabilistic soil series map of the contiguous United States. This database has the potential to improve the modeling of biogeochemical, water, and energy cycles in environmental models; enhance availability of data for precision agriculture; and assist hydrologic monitoring and forecasting to ensure food and water security, or in our case, to model Indiangrass (Chaney, 2016).
+
+As we know that Indiangrass grows roots down to 2 meters, I acquired the 100-200cm mean pH data as it is more likely that the levels at the deeper roots could be prevelant.
 
 ### Appears API and NASA EarthData
 d
@@ -61,3 +63,5 @@ https://mnfi.anr.msu.edu/communities/description/10709/hillside-prairie
 
 Brakie, M. 2017. Plant Guide for Indiangrass (Sorghastrum nutans). USDA-Natural Resources Conservation Service, East
 Texas Plant Materials Center. Nacogdoches, TX 7596
+
+Chaney, N. W., E. F. Wood, A. B. McBratney, J. W. Hempel, T. W. Nauman, C. W. Brungard, and N. P. Odgers. “POLARIS: A 30-meter probabilistic soil series map of the contiguous United States.” Geoderma 274 (July 15, 2016): 54–67. https://doi.org/10.1016/j.geoderma.2016.03.025.
