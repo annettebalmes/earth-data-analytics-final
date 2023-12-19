@@ -31,10 +31,11 @@ We can aquire that data from:
 According to the USDA, Indiangrass occurs as a dominant or subdominant in the following
 classifications:
      
-Composition, classification and species response patterns of remnant
+* Composition, classification and species response patterns of remnant
    tallgrass prairies in Texas.
-Classification of native vegetation at the Woodworth Station, North
+* Classification of native vegetation at the Woodworth Station, North
    Dakota.
+(U.S.D.A. n.d.)
 
 With access to the USFS National Grassland Units, I found two locations in these areas where I knew Indiangrass was very likely to occur.
 1. Lyndon B. Johnson National Grassland, Texas, USA.
@@ -89,7 +90,7 @@ National Grasslands. US Forest Service. (n.d.). https://www.fs.usda.gov/managing
 
 NKN Data Catalogs for MACA Products. Maca statistical downscaling method. (n.d.). https://climate.northwestknowledge.net/MACA/data_catalogs.php 
 
-https://www.fs.usda.gov/database/feis/plants/graminoid/sornut/all.html
+U.S.D.A. (n.d.). Sorghastrum nutans. Sorghastrum Nutans. https://www.fs.usda.gov/database/feis/plants/graminoid/sornut/all.html
 
 https://appeears.earthdatacloud.nasa.gov/
 
