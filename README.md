@@ -3,7 +3,7 @@ Grassland Management Under Climate Change
 - Evaluation of Sorghastrum nutans likelihood in several regions
 
 ## Introduction
-Sorghastrum nutans, commonly known as Indiangrass, is a warm-season perennial grass native to North America, according to the Natural Resources Conservation Service. It is often found in prairies, savannas, and open woodlands, and is found from the east coast to the Rocky Mountains, Arizona, Wyoming, and Utah.
+Sorghastrum nutans, commonly known as Indiangrass, is a warm-season perennial grass native to North America, according to the Natural Resources Conservation Service. It is often found in prairies, savannas, and open woodlands, and is found from the east coast to the Rocky Mountains, Arizona, Wyoming, and Utah (Michigan Natural Features Inventory, n.d.).
 
 Fast Facts
 * It grows from 3 to 8 feet tall
@@ -49,7 +49,7 @@ POLARIS provides a spatially continuous, internally consistent, quantitative pre
 As we know that Indiangrass grows roots down to 2 meters, I acquired the 100-200cm mean pH data as it is more likely that the levels at the deeper roots could be prevelant.
 
 ### Appears API and NASA Elevation Data
-AppEEARS stands for Application for Extracting and Exploring Analysis Ready Samples to assist users to subset geospatial datasets using spatial, temporal, and band/layer parameters. In this case we used the API to download NASA Shuttle Radar Topography Mission Global 3 arc second DEM data. The digital elevation model launched February 11, 2000 and ﬂew for 11 days and is the highest resolution elevation model available today.
+AppEEARS stands for Application for Extracting and Exploring Analysis Ready Samples to assist users to subset geospatial datasets using spatial, temporal, and band/layer parameters. In this case we used the API to download NASA Shuttle Radar Topography Mission Global 3 arc second DEM data. The digital elevation model launched February 11, 2000 and ﬂew for 11 days and is the highest resolution elevation model available today (NASA, n.d.).
 
 The API is not very stable, and I had to create code to cover multiple situations, including if the API is unaccessible. In addition, I have manually downloaded the data that I used in this project and used that in my final results.
 
@@ -82,21 +82,21 @@ Create a habitat suitability model- For each grassland:
 
 
 
-## Data Citation
+## Data Citations
+Brakie, M. 2017. Plant Guide for Indiangrass (Sorghastrum nutans). USDA-Natural Resources Conservation Service, East
+Texas Plant Materials Center. Nacogdoches, TX 7596
+
+Chaney, N. W., E. F. Wood, A. B. McBratney, J. W. Hempel, T. W. Nauman, C. W. Brungard, and N. P. Odgers. “POLARIS: A 30-meter probabilistic soil series map of the contiguous United States.” Geoderma 274 (July 15, 2016): 54–67. https://doi.org/10.1016/j.geoderma.2016.03.025.
 
 Maca. Climatology Lab. (n.d.). https://www.climatologylab.org/maca.html 
+
+Michigan Natural Features Inventory. Hillside Prairie - Michigan Natural Features Inventory. (n.d.). https://mnfi.anr.msu.edu/communities/description/10709/hillside-prairie
 
 National Grasslands. US Forest Service. (n.d.). https://www.fs.usda.gov/managing-land/national-forests-grasslands/national-grasslands 
 
 NKN Data Catalogs for MACA Products. Maca statistical downscaling method. (n.d.). https://climate.northwestknowledge.net/MACA/data_catalogs.php 
 
+NASA. (n.d.). Aρρeears. NASA. https://appeears.earthdatacloud.nasa.gov/ 
+
 U.S.D.A. (n.d.). Sorghastrum nutans. Sorghastrum Nutans. https://www.fs.usda.gov/database/feis/plants/graminoid/sornut/all.html
 
-https://appeears.earthdatacloud.nasa.gov/
-
-https://mnfi.anr.msu.edu/communities/description/10709/hillside-prairie
-
-Brakie, M. 2017. Plant Guide for Indiangrass (Sorghastrum nutans). USDA-Natural Resources Conservation Service, East
-Texas Plant Materials Center. Nacogdoches, TX 7596
-
-Chaney, N. W., E. F. Wood, A. B. McBratney, J. W. Hempel, T. W. Nauman, C. W. Brungard, and N. P. Odgers. “POLARIS: A 30-meter probabilistic soil series map of the contiguous United States.” Geoderma 274 (July 15, 2016): 54–67. https://doi.org/10.1016/j.geoderma.2016.03.025.
