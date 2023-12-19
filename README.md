@@ -62,6 +62,25 @@ The Forest Service currently administers 20 National Grasslands consisting of 3,
 
 As I worked with the data, I needed to transform the data from geographic units to a universal trasverse mercator projection. Interestingly enough, both of my chosen locations ended up being in the same EPSG code: 32614, if someone wanted to reproduce my work, they would need to alter the code to allow different zones.
 
+###  How to Build the Model
+Create a habitat suitability model- For each grassland:
+
+1. Download model variables as raster layers covering your study area envelope, including:
+        * At least one soil variable from the POLARIS dataset
+        * Elevation from the SRTM (available from the APPEEARS API)
+        * At least one climate variable from the MACAv2 dataset, accessible from Climate Toolbox. *Undergraduate students may download a single year and scenario; Graduate students should download at least two)
+
+2. Calculate at least one derived topographic variable (slope or aspect) to use in your model. You probably will wish to use the xarray-spatial library, which is available in the latest earth-analytics-python environment (but will need to be installed/updated if you are working on your own machine). Note that calculated slope may not be correct if you are using a CRS with units of degrees; you should re-project into a projected coordinate system with units of meters, such as the appropriate UTM Zone.
+3. Harmonize your data - make sure that the grids for each of your layers match up. Check out the ds.rio.reproject_match() method from rioxarray.
+
+4. Train a fuzzy logic model
+   * Research S. nutans, and find out what optimal values are for each variable you are using (e.g. soil pH, slope, and current climatological annual precipitation).
+   * For each digital number in each raster, assign a value from 0 to 1 for how close that grid square is to the optimum range (1=optimal, 0=incompatible).
+   * Combine your layers by multiplying them together. This will give you a single suitability number for each square.
+
+
+
+
 ## Data Citation
 
 https://www.climatologylab.org/maca.html
